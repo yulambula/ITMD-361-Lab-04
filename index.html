@@ -5,8 +5,8 @@
 	<title>Volunteer Form</title>
 </head>
 <body>
+	<h2>Volunteer Form</h2>
 <fieldset>
-	<legend>Volunteer Form</legend>
 		<p>
 			<label>First Name: <input type="text" name="text_field" placeholder="first name" ></label>
 		</p>
@@ -17,16 +17,16 @@
 			<label>Phone Number: <input type="text" name="text_field" placeholder="phone number" ></label>
 		</p>
     <p>
-      <label> Email Address<input type="email" name="email_field" placeholder="email here"></label>
+      <label> Email Address: <input type="email" name="email_field" placeholder="email here"></label>
     </P>
 		<p>
-			Gender:<label>Male<input type="radio" name="radio_field" value="r"></label>
-			<label>Female<input type="radio" name="radio_field" value="g" checked="checked"></label>
+			Gender: <label>Male<input type="radio" name="radio_field" value="r"></label>
+			<label>Female<input type="radio" name="radio_field" value="g"></label>
 		</p>
 		<p>
 			<select name="menu_field--------">
 				<option value="R">under 18</option>
-				<option value="G" selected>18 - 24</option>
+				<option value="G">18 - 24</option>
 				<option value="B">25 - 34</option>
 				<option value="A">35 - 44</option>
 				<option value="C">45 - 54</option>
@@ -35,13 +35,16 @@
 			</select>
 		</p>
 		</fieldset>
-		<fieldset>
-		<h3>My Availability</h3>
 		<p>
+		</p>
+		<h3>My Availability</h3>
+		<fieldset>
+		<p>
+			<h4>Days Available:</h4>
 			<label>Sunday <input type="checkbox" name="checkbox_field[]" value="sunday"></label><br>
 			<label>Monday <input type="checkbox" name="checkbox_field[]" value="monday" ></label><br>
-			<label>Tuesday <input type="checkbox" name="checkbox_field[]" value="tuesday" checked></label><br>
-			<label>Wednesday <input type="checkbox" name="checkbox_field[]" value="wednesday"></label>
+			<label>Tuesday <input type="checkbox" name="checkbox_field[]" value="tuesday"></label><br>
+			<label>Wednesday <input type="checkbox" name="checkbox_field[]" value="wednesday"></label><br>
 			<label>Thursday <input type="checkbox" name="checkbox_field[]" value="thursday" ></label><br>
 			<label>Friday <input type="checkbox" name="checkbox_field[]" value="friday"></label><br>
 			<label>Saturday<input type="checkbox" name="checkbox_field[]" value="saturday"></label>
