@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Volunteer Form</title>
+  <meta charset="UTF-8">
+  <title>Volunteer Form</title>
 </head>
 <body>
-	<h1>Volunteer Form</h1>
-<fieldset>
-		<legend>My Info</legend>
-		<p>
-			<label>First Name: <input type="text" name="text_field" placeholder="first name" ></label>
-		</p>
-		<p>
-			<label>Last Name: <input type="text" name="text_field" placeholder="last name" ></label>
-		</p>
-		<p>
-			<label>Phone Number: <input type="text" name="text_field" placeholder="phone number" ></label>
-		</p>
+  <h1>Volunteer Form</h1>
+  <fieldset>
+    <legend>My Info</legend>
+      <p>
+        <label>First Name: <input type="text" name="text_field" placeholder="first name" ></label>
+      </p>
+      <p>
+        <label>Last Name: <input type="text" name="text_field" placeholder="last name" ></label>
+      </p>
+      <p>
+        <label>Phone Number: <input type="text" name="text_field" placeholder="phone number" ></label>
+      </p>
+      <p>
+        <label> Email Address: <input type="email" name="email_field" placeholder="email here"></label>
+      </p>
+      <p>
+        Gender: <label>Male<input type="radio" name="radio_field" value="r"></label>
+        <label>Female<input type="radio" name="radio_field" value="g"></label>
+      </p>
+      <p>
+        Age: <select name="Age:">
+          <option value="R">under 18</option>
+	  <option value="G">18 - 24</option>
+	  <option value="B">25 - 34</option>
+	  <option value="A">35 - 44</option>
+	  <option value="C">45 - 54</option>
+	  <option value="D">55 - 64</option>
+	  <option value="E">65 and over</option>
+	</select>
+    </p>
+  </fieldset>
+    <legend>My Availability</legend>
+  <fieldset>
     <p>
-      <label> Email Address: <input type="email" name="email_field" placeholder="email here"></label>
-    </P>
-		<p>
-			Gender: <label>Male<input type="radio" name="radio_field" value="r"></label>
-			<label>Female<input type="radio" name="radio_field" value="g"></label>
-		</p>
-		<p>
-			Age: <select name="Age:">
-				<option value="R">under 18</option>
-				<option value="G">18 - 24</option>
-				<option value="B">25 - 34</option>
-				<option value="A">35 - 44</option>
-				<option value="C">45 - 54</option>
-				<option value="D">55 - 64</option>
-				<option value="E">65 and over</option>
-			</select>
-		</p>
-		</fieldset>
-		<p>
-		</p>
-		<legend>My Availability</legend>
-		<fieldset>
-		<p>
-			<h4>Days Available:</h4>
-			<label><input type="checkbox" name="checkbox_field[]" value="sunday">Sunday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="monday" >Monday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="tuesday">Tuesday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="wednesday">Wednesday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="thursday">Thursday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="friday">Friday</label><br>
-			<label><input type="checkbox" name="checkbox_field[]" value="saturday">Saturday</label>
-		</p>
-		<p>
-		<label for="our_textarea">Any Comments?</label>
-			<textarea cols="30" rows="10" name="textarea_field" placeholder="default text area text" id="our_textarea"></textarea>
-		</p>
-		</fieldset>
-		<input type="submit" value="Send Me">
-		</form>
+      <h4>Days Available:</h4>
+        <label><input type="checkbox" name="checkbox_field[]" value="sunday">Sunday</label><br>
+        <label><input type="checkbox" name="checkbox_field[]" value="monday" >Monday</label><br>
+        <label><input type="checkbox" name="checkbox_field[]" value="tuesday">Tuesday</label><br>
+        <label><input type="checkbox" name="checkbox_field[]" value="wednesday">Wednesday</label><br>
+        <label><input type="checkbox" name="checkbox_field[]" value="thursday">Thursday</label><br>
+	<label><input type="checkbox" name="checkbox_field[]" value="friday">Friday</label><br>
+	<label><input type="checkbox" name="checkbox_field[]" value="saturday">Saturday</label>
+    </p>
+    <p>
+      <label for="our_textarea">Any Comments?</label>
+      <textarea cols="30" rows="10" name="textarea_field" placeholder="default text area text" id="our_textarea"></textarea>
+    </p>
+  </fieldset>
+    <input type="submit" value="Send Me">
+  </form>
 </body>
 </html>
